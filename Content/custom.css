@@ -1,0 +1,253 @@
+﻿@font-face {
+    font-family: Klavika;
+    src: url(../fonts/Klavika-Bold.otf);
+}
+
+@font-face {
+    font-family: Klavika;
+    src:url(../fonts/Klavika-Bold.otf);
+    font-weight:bold;
+}
+
+/*   NAVBAR   */
+
+.navbar{
+    background-color:transparent;
+    border:none;
+    font-family:'Arvo';
+    font-weight:bold;
+    margin-bottom: 0;
+    padding-top:10px;
+}
+
+
+
+a.navbar-brand {
+    font-family: 'Lato';
+    color: white;
+    font-size: 2.3em;
+    font-weight: 100;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 2px #333;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #e74c3c;
+}
+
+
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #333;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:red;
+}
+
+/*   BODY   */
+.jumbotron{
+    background-image:url(Images/background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-x:center;
+    background-position-y:center;
+    padding-top: 170px;
+    padding-bottom: 280px;
+    border-top: 4px solid black;
+    margin-top: -60px;
+    margin-bottom:0;
+}
+
+.jumbotron h1{
+    font-family: 'Klavika';
+    padding: 10px;
+    border-bottom: 5px solid black;
+    text-align:center;
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size:50px;
+    text-transform:uppercase;
+    color:white;
+    text-shadow:1px 1px 2px #333;
+}
+
+.jumbotron h2{
+    font-family: 'Klavika' 'Arvo';
+    padding: 10px;
+    border-bottom: 5px solid black;
+    text-align:center;
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size:50px;
+    text-transform:uppercase;
+    color:white;
+    text-shadow:1px 1px 2px #333;
+
+}
+.container p{
+    text-align:center
+}
+
+.btn-lg{
+    font-family: 'Arvo';
+    font-size: 34px;
+    background-color: #e74c3c;
+    padding: 10px 51px;
+    border-radius: 12px;
+    border: 5px solid black;
+}
+
+.modal-content {
+    background: gray;
+    width: 96%;
+    padding: 7px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 44px 16px rgba(0,0,0,0.67);
+
+}
+
+.modal-content iframe {
+    border-radius: 25px;
+    box-shadow: 0px 0px 77px 6px rgba(0,0,0,0.67);
+
+}
+
+.modal-content button.close {
+    position: absolute;
+    top: 12px;
+    right: 13px;
+    background: white;
+    font-size: 28px;
+    width: 30px;
+    border-radius: 30px;
+
+}
+
+/*   BOTTOM SECTION   */
+
+#bottom-section .col-md-4{
+    min-height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    border: 7px solid black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 295px;
+    
+}
+
+#bottom-section .col-md-4:hover{
+    opacity: 0.9;
+}
+
+#byfw{
+    background-image:url(Images/byfw.jpg)
+}
+
+#baw{
+    background-image:url(Images/CSS3.jpg)
+}
+
+#oml{
+    background-image:url(Images/HTML5.jpg)
+}
+
+footer {
+    font-family: 'Arvo';
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 200;
+    color: #fefefe;
+}
+
+footer a{
+
+}
+
+/*Universal styling*/
+
+.highlight{
+    color: #e74c3c;
+}
+
+.right-align{
+    text-align:right;
+}
+
+
+/*Media Quesries*/
+
+@media (max-width: 1222px){
+    #bottom-section .col-md-4 {
+        margin-bottom:-20px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    #bottom-section .col-md-4 {
+        min-height: 633px; 
+        padding-top: 56%;
+
+    }
+}
+
+@media (max-width: 767px) {
+    #footer-par{
+       float: left;
+    }
+
+    .jumbotron h2{
+        font-size: 25px;
+    }
+
+    .btn-lg{
+        padding: 6px;
+        font-size: 22px;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: black;
+    }
+
+    .navbar-inverse .navbar-nav>li>a{
+        text-align:right;
+    }
+
+}
+
+@media (max-width: 498px) {
+    .jumbotron h2 {
+        font-size: 19px;
+    }
+
+    .btn-lg{
+        padding: 5px;
+        font-size: 18px;
+    }
+    
+    #bottom-section .col-md-4 {
+        min-height: 401px;
+        padding-top: 56%;
+    }
+
+
+    p#footer-par {
+        font-size: 10px;    
+        }
+
+    .right-align {
+    text-align: center;
+    }
+
+}
