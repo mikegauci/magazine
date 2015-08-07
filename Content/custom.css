@@ -104,6 +104,21 @@ a.navbar-brand {
     border: 5px solid black;
 }
 
+/*   VIDEO CONTENT   */
+
+#video-par-1{
+    font-size: 12px;
+    text-align:left;
+    margin: 0 0 -22px 19px;
+}
+
+
+p#video-par-2{
+    font-size: 12px;
+    text-align: right;
+    margin: 3px 45px 5px 0;
+}
+
 .modal-content {
     background: gray;
     width: 96%;

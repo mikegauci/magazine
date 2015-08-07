@@ -1,6 +1,0 @@
-c:\users\mike\documents\visual studio 2013\Projects\Magazine-layoutVS\Magazine-layoutVS\bin\Magazine-layoutVS.dll.config
-c:\users\mike\documents\visual studio 2013\Projects\Magazine-layoutVS\Magazine-layoutVS\bin\Magazine-layoutVS.dll
-c:\users\mike\documents\visual studio 2013\Projects\Magazine-layoutVS\Magazine-layoutVS\bin\Magazine-layoutVS.pdb
-c:\users\mike\documents\visual studio 2013\Projects\Magazine-layoutVS\Magazine-layoutVS\obj\Debug\Magazine-layoutVS.csprojResolveAssemblyReference.cache
-c:\users\mike\documents\visual studio 2013\Projects\Magazine-layoutVS\Magazine-layoutVS\obj\Debug\Magazine-layoutVS.dll
-c:\users\mike\documents\visual studio 2013\Projects\Magazine-layoutVS\Magazine-layoutVS\obj\Debug\Magazine-layoutVS.pdb
