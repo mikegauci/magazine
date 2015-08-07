@@ -109,7 +109,8 @@ a.navbar-brand {
 #video-par-1{
     font-size: 12px;
     text-align:left;
-    margin: 0 0 -22px 19px;
+    margin: 7px 0 -22px 19px;
+    color:white;
 }
 
 
@@ -117,6 +118,7 @@ p#video-par-2{
     font-size: 12px;
     text-align: right;
     margin: 3px 45px 5px 0;
+    color:white;
 }
 
 .modal-content {
@@ -263,6 +265,11 @@ footer a{
 
     .right-align {
     text-align: center;
+    }
+
+    p#video-par-2 {
+    font-size: 10px;
+
     }
 
 }
